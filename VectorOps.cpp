@@ -145,7 +145,7 @@ To exit, type '0'
             break;
         default:
             std::cout << "Invalid choice.\n";
-            return 1;
+            break;
         }
     }
 
