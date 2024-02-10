@@ -51,6 +51,16 @@ void printArray(const std::vector<double>& array) {
 }
 
 int main() {
+
+    std::cout << R"( __     __        _              ___            
+ \ \   / /__  ___| |_ ___  _ __ / _ \ _ __  ___ 
+  \ \ / / _ \/ __| __/ _ \| '__| | | | '_ \/ __|
+   \ V /  __/ (__| || (_) | |  | |_| | |_) \__ \
+    \_/ \___|\___|\__\___/|_|   \___/| .__/|___/
+                                     |_|        
+
+)";
+
     std::vector<double> array;
 
     double input_nums;
